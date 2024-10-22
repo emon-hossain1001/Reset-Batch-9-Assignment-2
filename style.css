@@ -40,3 +40,44 @@ a{
 .btn-primary:hover{
     background-color: rgb(146, 45, 30);
 }
+
+/* navbar related styles */
+header{
+    padding: 2rem 12rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.4rem 0.5rem;
+    border-radius: 2rem;
+}
+.nav-img{
+    display: none;
+}
+.navbar ul{
+    display: flex;
+    gap: 2rem
+}
+.navbar ul li a{
+    padding: 0.3rem 0.8rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.navbar ul li a:hover{
+    background-color: rgb(230, 83, 60);
+}
+#home a{
+    background-color: rgb(230, 83, 60);
+}
+
+.logo h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    cursor:pointer;
+}
