@@ -460,6 +460,47 @@ input, select{
     background: transparent;
 }
 
+/* Pricing section */
+.pricing-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1180px;
+    margin: 2rem auto;
+    margin-bottom: 4rem;
+}
+.card{
+    text-align: center;
+    padding: 2rem;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.8rem;
+}
+.pricing-content{
+    max-width: 900px;
+    margin: 4rem auto;
+    text-align: center;
+}
+.pricing-content h1{
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+.price{
+    color: steelblue;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+.price h2{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: steelblue;
+}
+.price small{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
 
 
 
@@ -529,6 +570,20 @@ input, select{
     /* Training content */
     .training-content{
         padding-left: 1rem;
+    }
+    /* pricing section */
+    .pricing-cards{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 2rem;
+    }
+    .card{
+        padding: 1rem;
+    }
+    .pricing-content{
+        padding: 0 1rem;
+    }
+    .pricing-content h1{
+        font-size: 2.2rem;
     }
 }
 
@@ -663,5 +718,16 @@ input, select{
     .banner-card-title{
         font-size: 1.8rem;
         font-weight: 900;
+    }
+    /* pricing section */
+    .pricing-cards{
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+    .pricing-content{
+        padding: 0 1rem;
+    }
+    .pricing-content h1{
+        font-size: 1.5rem;
     }
 }
