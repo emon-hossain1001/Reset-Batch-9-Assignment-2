@@ -531,3 +531,137 @@ input, select{
         padding-left: 1rem;
     }
 }
+
+/* Responsive for Mobile */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 0;
+    }
+    nav{
+        padding: 2rem 1.8rem;
+        gap: 1rem;
+    }
+    .navbar{
+        border: none;
+    }
+    .nav-img img{
+        width: 32px;
+        height: 32px;
+    }
+    .nav-img{
+        display: inline;
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: 0 4rem;
+    }
+    .navbar ul{
+        gap: 1rem;
+        display: none;
+    }
+    .navbar ul li a{
+        padding: 0.2rem 0.6rem;
+    }
+    .btn-primary{
+        width: 150px;
+    }
+    #btn-app{
+        width: 150px;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .banner-content p{
+        max-width: 80%;
+    }
+    /* habit container */
+    .habit-content{
+        padding: 0 3rem;
+    }
+    .habit-content h1{
+        font-size: 2rem;
+    }
+    .habit-box{
+        grid-template-columns: 1fr;
+        padding: 0 4rem;  
+    }
+    /* runner section */
+    .runner-content h1{
+        font-size: 2rem;
+    }
+    .runner-container{
+        margin: 0 1rem;
+        flex-direction: column;
+    }
+    .runner-img img{
+        width: 100%;
+    }
+    /* footer */
+    .footer-container{
+        flex-direction: column;
+    }
+    /* team section */
+    .team-img{
+        grid-template-columns: 1fr;
+        margin: 2rem 2rem;
+    }
+    /* bmi section */
+    .bmi-calculator-container{
+        flex-direction: column;
+        gap: 3rem;
+        padding: 2rem;
+        align-items: start;
+    }
+    .bmi-calculator, input, select{
+        width: 100%;
+    }
+    .bmi-content{
+        padding: 0 1rem;
+    }
+    /* Training content */
+    .training-content{
+        padding-left: 1rem;
+    }
+    .training-container{
+        padding: 0 1rem;
+    }
+    .container-1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-3{
+        display: none;
+    }
+    .img-2{
+        background-size: cover;
+        background-position: 70%;
+    }
+    .container-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-6{
+        display: none;
+    }
+    /* banner card section */
+    .banner-card-1{
+        width: 156px;
+        bottom: 9rem;
+        left: -2rem;
+    }
+    .banner-card-2{
+        width: 145px;
+        top: 3.5rem;
+        right: 0;
+    }
+    .banner-card-content h2{
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+    .banner-card-content p{
+        font-size: 0.6rem;
+    }
+    .banner-card-title{
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+}
