@@ -353,3 +353,181 @@ input, select{
 .bmi-table, .bmi-calculator-content, .bmi-calculator-content h2, .bmi-calculator-content p, .calculator{
     background-color: rgb(34, 34, 34);
 }
+
+/* Training section */
+.training-content{
+    max-width: 691px;
+    padding-left: 11rem;
+    margin-bottom: 3rem;
+}
+.training-content h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+.training-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.training-container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.container-1{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 240px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: 37.5% 25% 37.5%;
+    grid-template-rows: 240px;
+}
+.img-1{
+    background: linear-gradient(180.00deg, rgba(6, 255, 210, 0.5),rgba(6, 255, 210, 0.5) 100%), url('./images/exercise1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3) 100%), url('./images/exercise2.png');
+    background-position: center;
+    background-size: cover;
+}
+.img-3{
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 100%), url('./images/exercise3.png');
+    background-position: center;
+    background-size: cover;
+}
+.img-4{
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 100%), url('./images/exercise4.png');
+    background-position: center;
+    background-size: cover;
+}
+.img-5{
+    background: linear-gradient(180.00deg, rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3) 100%), url('./images/exercise5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img-6{
+    background: linear-gradient(180.00deg, rgba(0, 71, 255, 0.3),rgba(0, 71, 255, 0.3) 100%), url('./images/exercise6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* banner card */
+.banner-img{
+    position: relative;
+}
+.banner-card-1{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 206px;
+    position: absolute;
+    bottom: 5rem;
+    left: -7rem;
+}
+.banner-card-2{
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    position: absolute;
+    top: 9rem;
+    right: -2.5rem;
+}
+.banner-card-1 img{
+    width: 44px;
+    height: 44px;
+    background: transparent;
+}
+.banner-card-content{
+    background: transparent;
+}
+.banner-card-content p{
+    margin: 0.25rem 0;
+    background: transparent;
+}
+.banner-card-content h2{
+    background: transparent;
+}
+
+
+
+
+
+
+
+/* Responsive Section */
+
+/* Responsive for Tab */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .btn-primary{
+        width: 150px;
+    }
+    header{
+        padding: 0;
+    }
+    nav{
+        padding: 2rem 1.8rem;
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: 2rem 4rem;
+    }
+    .navbar ul{
+        gap: 1rem;
+    }
+    .navbar ul li a{
+        padding: 0.2rem 0.6rem;
+    }
+    /* habit container */
+    .habit-content{
+        padding: 0 4rem;
+    }
+    .habit-box{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 4rem;  
+    }
+    /* runner section */
+    .runner-content h1{
+        font-size: 2rem;
+    }
+    .runner-container{
+        margin: 0 1rem;
+    }
+    .runner-img img{
+        width: 90%;
+    }
+    /* footer */
+    .footer-container{
+        flex-direction: column;
+    }
+    /* team section */
+    .team-img{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2rem 2rem;
+    }
+    /* bmi section */
+    .bmi-calculator-container{
+        flex-direction: column;
+        gap: 3rem;
+        padding: 2rem;
+        align-items: start;
+    }
+    .bmi-content{
+        padding: 0 2rem;
+    }
+    /* Training content */
+    .training-content{
+        padding-left: 1rem;
+    }
+}
