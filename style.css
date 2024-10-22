@@ -81,3 +81,42 @@ nav{
     color: rgb(230, 83, 60);
     cursor:pointer;
 }
+/* Banner related styles */
+.banner{
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.0) 100%);
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content h1{
+    font-size: 4.6rem;
+    font-weight: 900;
+}
+.banner-content p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    max-width: 60%;
+}
+.banner-btn{
+    display: flex;
+    gap: 1rem;
+}
+#btn-app {
+    width: 200px;
+    text-align: center;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 600;
+}
+#btn-app:hover{
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
