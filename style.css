@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* common shared style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+h1, h2, h3, h4, li, th{
+    color: rgb(255, 255, 255);
+}
+p, td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+.font-dance{
+    font-family: "Dancing Script", cursive;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.btn-primary{
+    width: 200px;
+    text-align: center;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    border-radius: 2.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background-color: rgb(146, 45, 30);
+}
